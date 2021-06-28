@@ -52,8 +52,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/email-activator-secure-user-check-weblink-signinV2', usersRouter);
-app.use('/admin-001best', adminRouter);
+app.use('/email-activator-secure-user-check-weblink-redirect-signinV2', usersRouter);
+app.use('/admin-001bestV2', adminRouter);
 
 // error handlers
 // catch 404 and forward to error handler
